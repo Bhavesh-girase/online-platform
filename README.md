@@ -42,8 +42,6 @@ The project is currently under active development, and several enhancements are 
 ---
 
 ## 👨‍💻 Created By
-
-This project is proudly developed and maintained by:
 - **Bhavesh Girase**  
 - **Shubh Ahire**
 
