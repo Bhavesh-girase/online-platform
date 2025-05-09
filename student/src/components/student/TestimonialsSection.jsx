@@ -4,11 +4,11 @@ import {assets, dummyTestimonial } from '../../assets/assets'
 const TestimonialsSection = () => {
   return (
     <div className='pb-14 px-8 md:px-0 '>
-     <h2 className='text-3xl font-medium text-gray-800'>Testimonials</h2>
-     <p className='md:text-base text-gray-500 mt-3'>Hear from our learners as they share their journeys of transformation, success, how our platform has made difference in their lives</p>
-     <div className='grid grid-cols-auto gap-8 mt-14 '>
+     <h2 className='text-3xl font-medium text-gray-800 text-center'>Testimonials</h2>
+     <p className='md:text-base text-center text-gray-500 mt-3'>Hear from our learners as they share their journeys of transformation, success, how our platform has made difference in their lives</p>
+     <div className='flex m-2 gap-8 mt-14 '>
       {dummyTestimonial.map((testimonial,index)=>(
-        <div key={index} className='text-sm text-left brder border-gray-500/30 pb-6 rounded-lg bg-white shadow-[0px_4px_15px_opx] shadow-black overflow-hidden'>
+        <div key={index} className='text-sm text-left border border-gray-500/30 pb-6 rounded-lg bg-white shadow-[0px_4px_15px_opx] shadow-black overflow-hidden'>
           <div className='flex items-center gap-4 px-5 py-4 bg-gray-500/10'>
             <img className='h-12 w-12 rounded-full' src={testimonial.image}alt={testimonial.name}/>
             <div>
